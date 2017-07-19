@@ -25,7 +25,7 @@
 MYSQL **ctx;
 MYSQL_STMT ***stmt;
 
-#define DB_STRING_MAX 128
+#define DB_STRING_MAX 500
 #define MAX_CLUSTER_SIZE 128
 
 char connect_string[DB_STRING_MAX];
